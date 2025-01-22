@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweven.ai</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>SwevenAI</h1>
+
+    <!-- Section to analyze writing style -->
+    <section>
+      <h2>Submit Your Writing</h2>
+      <textarea id="userInput" placeholder="Paste your writing here (min 10,000 words)..."></textarea>
+      <div class="feedback" id="feedback">Word count: 0</div>
+      <button id="analyzeBtn">Analyze Writing Style</button>
+      <button id="saveBtn">Save Writing Style</button>
+    </section>
+
+    <!-- Section to translate a lesson into user's style -->
+    <section>
+      <h2>Translate a Lesson</h2>
+      <textarea id="lessonInput" placeholder="Paste the lesson you want translated..."></textarea>
+      <button id="translateBtn">Translate into My Style</button>
+    </section>
+
+    <!-- Display output -->
+    <section>
+      <h2>Output</h2>
+      <div class="output" id="output"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
